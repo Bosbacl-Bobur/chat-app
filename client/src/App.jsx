@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/Homepage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
-import assets from './assets/assets'
 
 const App = () => {
   return (
