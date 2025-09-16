@@ -4,7 +4,7 @@ import ChatContainer from "../components/ChatContainer";
 import RightSidebar from "../components/RightSidebar";
 
 const Homepage = () => {
-  const [selectedUser, setSelectedUser] = useState(false);
+  const [selectedUser, setSelectedUser] = useState(true);
 
   return (
     <div className="border w-full h-screen sm:px-[15%] sm:py-[5%]">
@@ -15,7 +15,6 @@ const Homepage = () => {
             : "sm:gird-cols-2"
         }`}
       >
-        <div className="">
           <Sidebar
             selectedUser={selectedUser}
             setselectedUser={setSelectedUser}
@@ -29,7 +28,6 @@ const Homepage = () => {
           selectedUser={selectedUser}
           setselectedUser={setSelectedUser}
         />
-      </div>
     </div>
   );
 };
